@@ -21,7 +21,7 @@ public class AtmServiceMock implements IAtmService {
 		String response = "";
 		try {
 			br = new BufferedReader(
-					new FileReader(System.getProperty("user.dir") + "/src/test/java/com/backbase/atm/TestRespose.txt"));
+					new FileReader(System.getProperty("user.dir") + "/src/test/java/com/backbase/atm/TestResponse.txt"));
 			while ((response = br.readLine()) != null) {
 				break;
 			}
